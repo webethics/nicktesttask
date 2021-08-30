@@ -11,16 +11,6 @@ use Illuminate\Support\Facades\Validator;
 class SubscribeToWebsite extends Controller
 {
 	
-	
-  /*  public function index()
-    {
-		
-        $Subscriber = Subscriber::all();
-		
-		print_r($Subscriber);
-      //  return response([ 'projects' => ProjectResource::collection($projects), 'message' => 'Retrieved successfully'], 200);
-    }	 */
-  
    //USER SUBSCRIBE TO WEBSITE
    public function userSubscribeToWebsite(Request $request)
     {
